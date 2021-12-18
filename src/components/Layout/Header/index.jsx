@@ -1,9 +1,12 @@
 import React from "react";
+import "./style.scss";
 
 function Header() {
   return (
     <div className="header">
-      <h1>Repo finder</h1>
+      <div className="logo">
+        <img src="./logo.png" alt="logo" />
+      </div>
     </div>
   );
 }
