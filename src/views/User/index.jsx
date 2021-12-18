@@ -48,10 +48,20 @@ function User() {
         type="text"
         onChange={searchRepos}
         placeholder="Search for a repository"
+        disabled={!userRepos}
       />
+      {filteredRepos.length === 0 && (
+        <p className="noRepos">
+          No repositories found for {""}
+          {!!!search && <strong>{username}</strong>}
+          {!!search && <strong>{search}</strong>}
+        </p>
+      )}
       <div className="userData">
         {userData.name && <UserInfoWrapper userData={userData} />}
-        {userRepos.length > 0 && <UserReposWrapper userRepos={filteredRepos} />}
+        {filteredRepos.length > 0 && (
+          <UserReposWrapper userRepos={filteredRepos} />
+        )}
       </div>
     </div>
   );

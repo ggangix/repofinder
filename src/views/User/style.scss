@@ -1,4 +1,8 @@
 .user{
+  .noRepos{
+    position: relative;
+    text-align: center;  
+  }
   .userData{
     display: grid;
     grid-template-columns: 1fr 3fr;
