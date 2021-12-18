@@ -2,6 +2,7 @@ import React, { useRef, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { getUser } from "../../services/api";
 import UserContext from "../../store/userContext";
+import "./style.scss";
 
 const Home = () => {
   const userInputEl = useRef(false);
@@ -22,7 +23,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="home">
       <h2> Please enter a github username </h2>
       <form onSubmit={lookForUser}>
         <input type="text" ref={userInputEl} />
