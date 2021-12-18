@@ -7,7 +7,7 @@ import Content from "./Content";
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className="app">
       <Header></Header>
       <Content>{children}</Content>
       <Footer></Footer>

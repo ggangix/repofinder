@@ -4,6 +4,7 @@ import { getRepos, getUser } from "../../services/api";
 import UserContext from "../../store/userContext";
 import UserReposWrapper from "../../components/userReposWrapper";
 import UserInfoWrapper from "../../components/userInfoWrapper";
+import "./style.scss";
 
 function User() {
   const { userData, setUserData } = useContext(UserContext);
