@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "https://ggangix.github.io/repofinder/static/css/main.97508ddf.css",
-    "main.js": "https://ggangix.github.io/repofinder/static/js/main.8e2e3fed.js",
+    "main.js": "https://ggangix.github.io/repofinder/static/js/main.aa38a3fd.js",
     "static/js/787.9a3526b1.chunk.js": "https://ggangix.github.io/repofinder/static/js/787.9a3526b1.chunk.js",
+    "static/media/logo.png": "https://ggangix.github.io/repofinder/static/media/logo.e4b2dbd4910f4558c426.png",
     "index.html": "https://ggangix.github.io/repofinder/index.html",
     "main.97508ddf.css.map": "https://ggangix.github.io/repofinder/static/css/main.97508ddf.css.map",
-    "main.8e2e3fed.js.map": "https://ggangix.github.io/repofinder/static/js/main.8e2e3fed.js.map",
+    "main.aa38a3fd.js.map": "https://ggangix.github.io/repofinder/static/js/main.aa38a3fd.js.map",
     "787.9a3526b1.chunk.js.map": "https://ggangix.github.io/repofinder/static/js/787.9a3526b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97508ddf.css",
-    "static/js/main.8e2e3fed.js"
+    "static/js/main.aa38a3fd.js"
   ]
 }
