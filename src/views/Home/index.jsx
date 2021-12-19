@@ -26,7 +26,7 @@ const Home = () => {
     <div className="home">
       <h2> Please enter a github username </h2>
       <form onSubmit={lookForUser}>
-        <input type="text" ref={userInputEl} />
+        <input name="username" type="text" ref={userInputEl} />
         <button type="submit" onClick={lookForUser}>
           Submit
         </button>
