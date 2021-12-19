@@ -1,13 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./style.scss";
+import logo from "../../../assets/images/logo.png";
 
 function Header() {
-  const navigate = useNavigate();
   return (
-    <div className="header" onClick={() => navigate(`/`)}>
+    <div className="header">
       <div className="logo">
-        <img src="/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
     </div>
   );
