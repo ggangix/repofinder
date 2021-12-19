@@ -1,12 +1,12 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "../views/Home";
 import User from "../views/User";
 import NotFound from "../views/NotFound";
 import Layout from "../components/Layout";
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Layout>
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -14,7 +14,7 @@ const App = () => (
         <Route component={NotFound} />
       </Routes>
     </Layout>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
